@@ -1,0 +1,19 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" #sidenav>Sidenav content</mat-sidenav>
+  <div class="site">
+    <header>
+      <app-head (toggle)="sidenav.toggle()">
+      </app-head>
+    </header>
+
+    <main>
+      <app-main>
+      </app-main>
+    </main>
+    <footer>
+      <app-foot>
+
+      </app-foot>
+    </footer>
+  </div>
+</mat-sidenav-container>
