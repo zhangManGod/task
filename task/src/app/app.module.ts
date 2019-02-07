@@ -3,14 +3,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {NgModule} from '@angular/core';
 import {CoreModule} from './core/core.module';
-import {ShardModule} from './shard/shard.module'
-import {HttpClientModule} from '@angular/common/http'
-
+import {ShardModule} from './shard/shard.module';
+import {HttpClientModule} from '@angular/common/http';
+import {AppRoutingModule} from './app-routing.moudle'
 
 import {AppComponent} from './app.component';
 import { HeadComponent } from './layout/head/head.component';
 import { FootComponent } from './layout/foot/foot.component';
-import { MainComponent } from './layout/main/main.component';
+import { LoginModule } from './login/login.module'
 
 
 @NgModule({
@@ -18,7 +18,6 @@ import { MainComponent } from './layout/main/main.component';
     AppComponent,
     HeadComponent,
     FootComponent,
-    MainComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +25,9 @@ import { MainComponent } from './layout/main/main.component';
     NoopAnimationsModule,
     CoreModule,
     ShardModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
