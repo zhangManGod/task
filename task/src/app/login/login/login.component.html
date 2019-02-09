@@ -1,0 +1,36 @@
+<form class="example-form">
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>登陆界面</mat-card-title>
+    <!--<mat-card-subtitle>登录界面</mat-card-subtitle>-->
+  </mat-card-header>
+  <mat-card-content>
+      <mat-form-field class="example-full-width">
+        <input matInput type="text" placeholder="您的email">
+        <mat-hint>必填项</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="密钥"></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="button">登陆</button>
+  </mat-card-content>
+  <mat-card-actions class="text-right">
+    <p>还没有用户？<a routerLink="/register">注册</a></p>
+    <p>忘记密码？<a href="">找回</a></p>
+  </mat-card-actions>
+</mat-card>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      </p>
+    </mat-card-content>
+  </mat-card>
+</form>
+

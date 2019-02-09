@@ -1,0 +1,30 @@
+<form class="example-form">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>注册界面</mat-card-title>
+      <!--<mat-card-subtitle>登录界面</mat-card-subtitle>-->
+    </mat-card-header>
+    <mat-card-content>
+      <mat-form-field class="example-full-width">
+        <input matInput type="text" placeholder="您的email">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <input matInput type="text" placeholder="您的名字">
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="密码"></textarea>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <textarea matInput placeholder="确认密码"></textarea>
+      </mat-form-field>
+      <mat-grid-list cols="8">
+        <mat-grid-tile *ngFor="let item of items">
+          <mat-icon class="avatar" [svgIcon]="item"></mat-icon>
+        </mat-grid-tile>
+      </mat-grid-list>
+      <button mat-raised-button color="primary" type="button">注册</button>
+      <button mat-raised-button color="accent"  class="button-left" routerLink="/login" type="button">返回</button>
+    </mat-card-content>
+  </mat-card>
+</form>
+

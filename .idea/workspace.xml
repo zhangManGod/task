@@ -6,19 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5a4931-5407-4006-ab53-acf0279acdb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/assets/img/avatars.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task/src/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/layout/head/head.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/layout/head/head.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/layout/head/head.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/layout/head/head.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/shard/shard.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/shard/shard.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/app/shard/svg.utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/app/shard/svg.utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/task/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/task/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,18 +51,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/shard/shard.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task/src/app/project/invite/invite.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -84,49 +60,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/project/invite/invite.component.ts">
+        <entry file="file://$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/project/project-add/project-add.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/project/project-add/project-add.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="34">
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/project/project-item/project-item.component.html">
+        <entry file="file://$PROJECT_DIR$/task/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="48" />
+            <state>
+              <caret column="40" selection-start-column="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/src/app/project/project-item/project-item.component.ts">
+        <entry file="file://$PROJECT_DIR$/task/src/assets/img/avatars.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="117">
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task/src/app/shard/svg.utils.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task/src/app/project/invite/invite.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -153,19 +140,15 @@
         <option value="$PROJECT_DIR$/task/src/styles.scss" />
         <option value="$PROJECT_DIR$/task/src/app/layout/head/head.component.html" />
         <option value="$PROJECT_DIR$/task/src/app/layout/head/head.component.ts" />
-        <option value="$PROJECT_DIR$/task/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/task/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/task/src/theme.scss" />
         <option value="$PROJECT_DIR$/task/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/task/src/assets/img/avatars.svg" />
-        <option value="$PROJECT_DIR$/task/src/app/shard/svg.utils.ts" />
         <option value="$PROJECT_DIR$/task/src/app/login/register/register.component.ts" />
         <option value="$PROJECT_DIR$/task/src/app/login/login-routing.moudle.ts" />
         <option value="$PROJECT_DIR$/task/src/app/login/login/login.component.html" />
         <option value="$PROJECT_DIR$/task/src/app/login/register/register.component.scss" />
         <option value="$PROJECT_DIR$/task/src/app/login/register/register.component.html" />
-        <option value="$PROJECT_DIR$/task/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts" />
         <option value="$PROJECT_DIR$/task/src/app/app-routing.moudle.ts" />
         <option value="$PROJECT_DIR$/task/src/app/project/project-item/project-item.component.html" />
         <option value="$PROJECT_DIR$/task/src/app/project/project-list/project-list.component.scss" />
@@ -178,10 +161,14 @@
         <option value="$PROJECT_DIR$/task/src/app/project/project.module.ts" />
         <option value="$PROJECT_DIR$/task/src/app/project/invite/invite.component.ts" />
         <option value="$PROJECT_DIR$/task/src/app/project/invite/invite.component.html" />
+        <option value="$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts" />
+        <option value="$PROJECT_DIR$/task/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/task/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/task/src/app/shard/svg.utils.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />
@@ -295,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549697184292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549697205132" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -329,7 +316,7 @@
       <updated>1549542713077</updated>
       <workItem from="1549542720785" duration="113000" />
       <workItem from="1549544133095" duration="4642000" />
-      <workItem from="1549610308172" duration="18425000" />
+      <workItem from="1549610308172" duration="18674000" />
     </task>
     <task id="LOCAL-00001" summary="update login page">
       <created>1549548802136</created>
@@ -338,23 +325,38 @@
       <option name="project" value="LOCAL" />
       <updated>1549548802136</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update detail page">
+      <created>1549697201585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549697201585</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update detail page">
+      <created>1549697214526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549697214526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23180000" />
+    <option name="totallyTimeSpent" value="23429000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <frame x="-7" y="2" width="1378" height="733" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -363,10 +365,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32833335" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.335" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.335" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,7 +386,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="update login page" />
+    <MESSAGE value="update detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update detail page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task/src/app/layout/sidebar/sidebar.component.scss">
@@ -431,16 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -467,19 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task/src/assets/img/avator.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/assets/img/avatars.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/app/shard/svg.utils.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task/src/app/login/register/register.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,30 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/src/app/login/login-routing.moudle.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="13" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -656,6 +616,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/app/project/project-routing.moudle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/assets/img/avatars.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/src/app/shard/svg.utils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

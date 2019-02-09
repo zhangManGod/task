@@ -1,0 +1,16 @@
+<form >
+  <h3 matDialogTitle>{{ dialogTitle }}</h3>
+  <div matDialogContent>
+    <mat-form-field class="full-width">
+      <input matInput placeholder="成员" formControlName="name" [matAutocomplete]="autoMenbers">
+    </mat-form-field>
+  </div>
+  <div matDialogActions>
+    <button mat-raised-button color="primary" type="submit">保存</button>
+  </div>
+  <mat-autocomplete #autoMenbers="matAutocomplete" [displayWith]="disPlayUser">
+  <mat-option *ngFor="let member of members" [value]="member">
+    {{member.name}}
+  </mat-option>
+  </mat-autocomplete>
+</form>
