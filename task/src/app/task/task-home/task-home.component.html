@@ -1,0 +1,19 @@
+<div class="task-list">
+  <app-task-list class="list-container" *ngFor="let list of lists">
+    <app-task-header
+      [header]="list.name"
+      (addNewTask)="openNewTasks()"
+      (moveTasks)="openMoveTasks()"
+    (addNewTaskList)="updateList()"
+    (del)="delTask()"></app-task-header>
+    <app-task-item *ngFor="let task of list.task" [item]="task" [avator]="task.owner.avatar" (updateItem)="openUpdateTasks(task)"></app-task-item>
+  </app-task-list>
+</div>
+
+<button mat-fab type="button" class="fab-button" (click)="newList()">
+  <mat-icon>add</mat-icon>
+</button>
+
+<button mat-fab type="button" class="left-button" (click)="returnProject()">
+  <mat-icon>keyboard_backspace</mat-icon>
+</button>

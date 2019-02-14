@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 import {ProjectAddComponent} from '../project-add/project-add.component';
 import {InviteComponent} from '../invite/invite.component';
+import {DelComponent} from '../../core/del/del.component';
 
 @Component({
   selector: 'app-project-list',
@@ -32,9 +33,28 @@ export class ProjectListComponent implements OnInit {
   openNewProjectDialog() {
     const dialogRef = this.dialog.open(ProjectAddComponent, {
       width: '250px',
-      data: {data: 'this is data'}
+      data: {title: '新建项目', data: 'this is data'}
     });
     dialogRef.afterClosed().subscribe(result => console.log(result));
+  }
+
+  openUpdateDialog() {
+    const dialogRef = this.dialog.open(ProjectAddComponent, {
+      width: '250px',
+      data: {title: '编辑项目', data: 'this is data'}
+    });
+    dialogRef.afterClosed().subscribe(result => console.log(result));
+  }
+
+  openDelDialog() {
+    const dialogRef = this.dialog.open(DelComponent, {
+      width: '300px',
+      data: {title: '删除项目'}
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(result);
+    });
   }
 
   openIviDialog() {

@@ -1,0 +1,16 @@
+<form>
+  <h3 matDialogTitle>移动数据</h3>
+  <div matDialogContent>
+    <mat-form-field>
+      <mat-select placeholder="列表">
+        <mat-option *ngFor="let moveTask of moveTasks" [value]="moveTask.id">
+          {{moveTask.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div matDialogActions>
+    <button mat-raised-button color="primary" type="submit">OK</button>
+    <button mat-raised-button color="accent" type="button" (click)="onClick()">关闭</button>
+  </div>
+</form>

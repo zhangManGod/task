@@ -1,0 +1,30 @@
+<form >
+  <h3 matDialogTitle>{{title}}</h3>
+  <div matDialogContent>
+    <mat-form-field class="full-width">
+      <input matInput placeholder="任务内容" formControlName="name">
+    </mat-form-field>
+    <div class="full-width">
+    <mat-radio-group>
+      <mat-radio-button *ngFor="let tasktype of tasktypes" [value]="tasktype.value" >
+        {{tasktype.label}}
+      </mat-radio-button>
+    </mat-radio-group>
+    </div>
+    <mat-form-field class="full-width">
+      <input matInput [matDatepicker]="startDate" placeholder="开始时间">
+    </mat-form-field>
+    <mat-datepicker-toggle matSuffix [for]="startDate"></mat-datepicker-toggle>
+    <mat-datepicker #startDate></mat-datepicker>
+
+    <mat-form-field class="full-width">
+      <input matInput [matDatepicker]="endDate" placeholder="结束时间">
+    </mat-form-field>
+    <mat-datepicker-toggle matSuffix [for]="endDate"></mat-datepicker-toggle>
+    <mat-datepicker #endDate></mat-datepicker>
+
+  </div>
+  <div matDialogActions>
+    <button mat-raised-button color="primary" type="submit">保存</button>
+  </div>
+</form>

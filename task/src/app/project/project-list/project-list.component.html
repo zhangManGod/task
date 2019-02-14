@@ -1,4 +1,7 @@
-<app-project-item *ngFor="let project of projects" [item]="project" (inviteflg)="openIviDialog()" class="card">
+<app-project-item *ngFor="let project of projects" [item]="project"
+                  (inviteflg)="openIviDialog()"
+                  (updateProject)="openUpdateDialog()"
+                  (delProject)="openDelDialog()" class="card">
 
 </app-project-item>
 

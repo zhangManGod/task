@@ -13,6 +13,7 @@ import {FootComponent} from './layout/foot/foot.component';
 import {LoginModule} from './login/login.module';
 import {ProjectModule} from './project/project.module';
 import {SidebarComponent} from './layout/sidebar/sidebar.component';
+import {TaskModule} from './task/task.module';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {SidebarComponent} from './layout/sidebar/sidebar.component';
     HttpClientModule,
     AppRoutingModule,
     LoginModule,
-    ProjectModule
+    ProjectModule,
+    TaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]

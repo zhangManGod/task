@@ -11,10 +11,10 @@ export class ProjectAddComponent implements OnInit {
   constructor(@Inject(MAT_DIALOG_DATA) private data, private  dialogRdef: MatDialogRef<ProjectAddComponent>) {
   }
 
-  dialogTitle = `新建项目`;
+  dialogTitle = ``;
 
   ngOnInit() {
-    console.log(JSON.stringify(this.data));
+    this.dialogTitle = this.data.title;
   }
 
   onclick() {

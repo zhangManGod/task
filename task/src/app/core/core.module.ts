@@ -1,14 +1,16 @@
 import {NgModule, Optional, SkipSelf} from '@angular/core';
 import {DomSanitizer} from '@angular/platform-browser';
 import {MatIconRegistry} from '@angular/material';
-import {CommonModule} from '@angular/common';
-import {svgRegistry} from '../shard/svg.utils'
+import {ShardModule} from '../shard/shard.module';
+import {svgRegistry} from '../shard/svg.utils';
+import {DelComponent} from './del/del.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    ShardModule
   ],
-  declarations: []
+  declarations: [DelComponent],
+  entryComponents: [DelComponent]
 })
 export class CoreModule {
 

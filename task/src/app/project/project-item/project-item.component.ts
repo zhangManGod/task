@@ -1,4 +1,5 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-project-item',
@@ -10,8 +11,10 @@ export class ProjectItemComponent implements OnInit {
   @Input() item;
 
   @Output() inviteflg = new EventEmitter<void>();
+  @Output() updateProject = new EventEmitter<void>();
+  @Output() delProject = new EventEmitter<void>();
 
-  constructor() {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
@@ -19,17 +22,21 @@ export class ProjectItemComponent implements OnInit {
 
   onClick(event) {
     console.log(event);
+    this.router.navigateByUrl('/task');
   }
 
-  openUpdateDialog(event) {
-    console.log(event);
+  openUpdateDialog(env: Event) {
+    this.updateProject.emit();
+    env.stopPropagation();
   }
 
-  openInviteDialog(event) {
+  openInviteDialog(env: Event) {
     this.inviteflg.emit();
+    env.stopPropagation();
   }
 
-  openDeleteDialog(event) {
-    console.log(event);
+  openDeleteDialog(env: Event) {
+    this.delProject.emit();
+    env.stopPropagation();
   }
 }
