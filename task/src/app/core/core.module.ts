@@ -4,6 +4,7 @@ import {MatIconRegistry} from '@angular/material';
 import {ShardModule} from '../shard/shard.module';
 import {svgRegistry} from '../shard/svg.utils';
 import {DelComponent} from './del/del.component';
+import 'hammerjs';
 
 @NgModule({
   imports: [

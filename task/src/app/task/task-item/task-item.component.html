@@ -4,7 +4,8 @@
     'priority-normal': item.priority === 3,
     'priority-important': item.priority === 2,
     'priority-emergency': item.priority === 1}"
-   (click)="updateTask()">
+   (click)="updateTask()"
+  [@task]="widerPriority">
   <mat-checkbox
     class="status"
     [checked]="item.completed"

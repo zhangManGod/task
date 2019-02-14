@@ -1,20 +1,26 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, HostBinding} from '@angular/core';
 import {Router} from '@angular/router';
 import {MatDialog} from '@angular/material';
 import {NewtaskComponent} from '../newtask/newtask.component';
 import {CopyTaskComponent} from '../copy-task/copy-task.component';
 import {NewListComponent} from '../new-list/new-list.component';
 import {DelComponent} from '../../core/del/del.component';
+import {slideToRight} from '../../animate/route.ani';
 
 @Component({
   selector: 'app-task-home',
   templateUrl: './task-home.component.html',
-  styleUrls: ['./task-home.component.scss']
+  styleUrls: ['./task-home.component.scss'],
+  animations: [
+    slideToRight
+  ]
 })
 export class TaskHomeComponent implements OnInit {
 
   constructor(private dialog: MatDialog, private router: Router) {
   }
+
+  @HostBinding('@routerAnimate') state;
 
   lists = [
     {
@@ -31,7 +37,8 @@ export class TaskHomeComponent implements OnInit {
           },
           dueDate: new Date(),
           complete: false,
-          reminder: true
+          reminder: true,
+          priority: 3
         },
         {
           id: 2,
@@ -43,7 +50,8 @@ export class TaskHomeComponent implements OnInit {
           },
           dueDate: new Date(),
           complete: false,
-          reminder: true
+          reminder: true,
+          priority: 2
         },
       ]
     },
@@ -61,7 +69,8 @@ export class TaskHomeComponent implements OnInit {
           },
           dueDate: new Date(),
           complete: true,
-          reminder: false
+          reminder: false,
+          priority: 1
         },
         {
           id: 2,
@@ -73,7 +82,8 @@ export class TaskHomeComponent implements OnInit {
           },
           dueDate: new Date(),
           complete: true,
-          reminder: false
+          reminder: false,
+          priority: 3
         },
       ]
     },

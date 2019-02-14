@@ -1,10 +1,14 @@
-import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+import {Component, OnInit, Input, Output, EventEmitter, HostBinding, HostListener} from '@angular/core';
 import {Router} from '@angular/router';
+import {cardAnim} from '../../animate/card.ani';
 
 @Component({
   selector: 'app-project-item',
   templateUrl: './project-item.component.html',
-  styleUrls: ['./project-item.component.scss']
+  styleUrls: ['./project-item.component.scss'],
+  animations: [
+    cardAnim
+  ]
 })
 export class ProjectItemComponent implements OnInit {
 
@@ -13,11 +17,22 @@ export class ProjectItemComponent implements OnInit {
   @Output() inviteflg = new EventEmitter<void>();
   @Output() updateProject = new EventEmitter<void>();
   @Output() delProject = new EventEmitter<void>();
+  @HostBinding('@card') cardState = 'out';
 
   constructor(private router: Router) {
   }
 
   ngOnInit() {
+  }
+
+  @HostListener('mouseenter')
+  onMoustEnter() {
+    this.cardState = 'hover';
+  }
+
+  @HostListener('mouseleave')
+  onMoustLeave() {
+    this.cardState = 'out';
   }
 
   onClick(event) {
